@@ -1,0 +1,11 @@
+
+  @font-face {
+    font-family: VWHeadRegular;
+    src: url("/fonts/vw/VWHead-Regular.otf") format("opentype");
+}
+
+@font-face {
+    font-family: VWHeadBold;
+    font-weight: bold;
+    src: url("/fonts/vw/VWHead-Bold.otf") format("opentype");
+}

@@ -1,0 +1,72 @@
+{
+  "name": "vgf-admin",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve --open",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint",
+    "dev": "npm run serve"
+  },
+  "dependencies": {
+    "@fullcalendar/core": "^4.0.2",
+    "@fullcalendar/daygrid": "^4.0.1",
+    "@fullcalendar/interaction": "^4.0.2",
+    "@fullcalendar/timegrid": "^4.0.1",
+    "@fullcalendar/vue": "^4.0.2-beta",
+    "axios": "^1.1.3",
+    "bootstrap": "4.3.1",
+    "bootstrap-vue": "^2.5.0",
+    "chart.js": "^2.9.3",
+    "clickout-event": "^1.1.2",
+    "d3": "^5.7.0",
+    "datamaps": "^0.5.9",
+    "date-fns": "^1.30.1",
+    "dropzone": "^5.5.1",
+    "element-ui": "2.4.11",
+    "es6-promise": "^4.1.1",
+    "flatpickr": "^4.5.7",
+    "fuse.js": "^3.2.0",
+    "google-maps": "^3.2.1",
+    "jwt-decode": "^3.1.2",
+    "moment": "^2.29.4",
+    "nouislider": "^12.1.0",
+    "perfect-scrollbar": "^1.3.0",
+    "quill": "^1.3.6",
+    "sweetalert2": "^9.5.4",
+    "vee-validate": "^3.2.1",
+    "vue": "^2.7.14",
+    "vue-chartjs": "^3.5.0",
+    "vue-clipboard2": "^0.3.0",
+    "vue-flatpickr-component": "^8.1.2",
+    "vue-html2pdf": "^1.8.0",
+    "vue-resource": "^1.5.3",
+    "vue-router": "^3.0.6",
+    "vue2-editor": "^2.10.3",
+    "vue2-transitions": "^0.2.3",
+    "vuex": "^3.6.0"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.7.0",
+    "@vue/cli-plugin-eslint": "^3.7.0",
+    "@vue/cli-service": "^3.7.0",
+    "@vue/eslint-config-prettier": "^4.0.1",
+    "babel-plugin-component": "^1.1.0",
+    "html-loader": "^1.1.0",
+    "node-sass": "^4.12.0",
+    "sass-loader": "^7.1.0",
+    "vue-template-compiler": "^2.7.14"
+  },
+  "postcss": {
+    "plugins": {
+      "autoprefixer": {}
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 10"
+  ],
+  "author": "Alaska",
+  "description": "SNPI Admin"
+}
